@@ -1,0 +1,30 @@
+<svg width="184" height="161" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-9.3%" y="-12%" width="137.1%" height="148.1%" filterUnits="objectBoundingBox" id="a">
+            <feOffset dx="16" dy="16" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.0941176471 0 0 0 0 0.454901961 0 0 0 0 0.666666667 0 0 0 0.1 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <linearGradient x1="96.353%" y1="50%" x2="0%" y2="50%" id="b">
+            <stop stop-color="#E5FEFF" offset="0%"/>
+            <stop stop-color="#A8E9EC" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="c">
+            <stop stop-color="#1ECE8F" offset="0%"/>
+            <stop stop-color="#1EC6CE" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g filter="url(#a)" transform="rotate(-20 107.758 33.62)" fill="none" fill-rule="evenodd">
+        <path d="M69.914 96.577V14.04c17.46-17.388 52.377-17.388 69.836 0v82.537c-17.46-17.388-52.377-17.388-69.836 0z" fill="url(#b)"/>
+        <path d="M9.851 107.536l.253-81.093C23.568 9.055 56.671-3.348 70.136 14.04v82.537c-13.465-17.388-46.82-6.429-60.285 10.96z" fill="url(#c)"/>
+        <path d="M.3 96.26V13.722c17.46-17.389 52.377-17.389 69.836 0v82.536C52.676 78.871 17.759 78.871.3 96.26z" fill="#FFF"/>
+        <path d="M89.88 64.784s7.193-3.61 16.326-3.61c9.132 0 16.749 4.461 16.749 4.461l.143-41.388s-8.662-4.45-16.575-4.45c-7.913 0-16.71 4.469-16.71 4.469l.067 40.518z" fill="url(#c)" opacity=".5"/>
+        <g opacity=".3" stroke="#18858B" stroke-linecap="round" stroke-width="2">
+            <path d="M16.838 23.406s7.192-3.609 16.325-3.609c9.132 0 16.75 4.46 16.75 4.46M16.838 36.15s7.192-3.61 16.325-3.61c9.132 0 16.75 4.461 16.75 4.461M16.838 48.893s7.192-3.609 16.325-3.609c9.132 0 16.75 4.46 16.75 4.46M16.838 61.637s7.192-3.609 16.325-3.609c9.132 0 16.75 4.46 16.75 4.46"/>
+        </g>
+    </g>
+</svg>

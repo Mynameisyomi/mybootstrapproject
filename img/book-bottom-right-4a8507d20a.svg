@@ -1,0 +1,30 @@
+<svg width="191" height="169" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-8.2%" y="-9.5%" width="132.7%" height="138.2%" filterUnits="objectBoundingBox" id="a">
+            <feOffset dx="15" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.0941176471 0 0 0 0 0.454901961 0 0 0 0 0.666666667 0 0 0 0.1 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="b">
+            <stop stop-color="#FFF" offset="0%"/>
+            <stop stop-color="#84E0E4" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="c">
+            <stop stop-color="#1ECE8F" offset="0%"/>
+            <stop stop-color="#1EC6CE" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g filter="url(#a)" transform="rotate(10 68.525 125.014)" fill="none" fill-rule="evenodd">
+        <path d="M76.657 130.714V40.717c19.037-18.96 57.11-18.96 76.147 0v89.997c-19.037-18.96-57.11-18.96-76.147 0z" fill="url(#b)"/>
+        <path d="M.328 130.714V40.717c19.036-18.96 57.11-18.96 76.147 0v89.997c-19.037-18.96-57.11-18.96-76.147 0z" fill="#FFF"/>
+        <path d="M98.678 68.519s7.842-3.935 17.8-3.935c9.958 0 18.264 4.863 18.264 4.863l-.203-16.903s-9.445-4.852-18.074-4.852c-8.628 0-18.22 4.873-18.22 4.873l.433 15.954zM20.463 99.042s7.843-3.936 17.8-3.936c9.959 0 18.264 4.864 18.264 4.864l-.203-16.903s-9.445-4.852-18.073-4.852c-8.629 0-18.22 4.872-18.22 4.872l.432 15.955z" fill="url(#c)" opacity=".5"/>
+        <g opacity=".3" stroke="#1EC6CE" stroke-linecap="round" stroke-width="2">
+            <path d="M18.707 51.179s7.842-3.935 17.8-3.935c9.958 0 18.264 4.863 18.264 4.863M18.707 65.487s7.842-3.936 17.8-3.936c9.958 0 18.264 4.864 18.264 4.864M97.875 82.656s7.843-3.936 17.8-3.936c9.959 0 18.264 4.864 18.264 4.864M97.875 96.01s7.843-3.936 17.8-3.936c9.959 0 18.264 4.864 18.264 4.864"/>
+        </g>
+        <path d="M54.192 90.659V.66c10.056 11.843 9.987 27.293 22.773 39.154v89.997c-13.027-9.807-12.785-28.008-22.773-39.153z" fill="url(#c)"/>
+    </g>
+</svg>
