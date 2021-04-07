@@ -653,6 +653,9 @@ strong, b {
     color: #fff;
     text-decoration: none;
 }
+.tool-card__cta:hover{
+    color: #fff;
+}
 .signup {
     display: grid;
     align-items: center;
@@ -695,4 +698,25 @@ section h2 {
     font-size: 16px;
     color: #fff;
     text-decoration: none;
+}
+
+
+/* pricing */
+.prices{
+    padding-top: 0;
+}
+.prices .container {
+    position: relative;
+    z-index: 9999;
+    margin-top: -120px;
+}
+.prices__columns {
+    columns: 3 200px;
+    column-gap: 2rem;
+}
+.companies{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    /* background: linear-gradient( 90deg, #0284F6 0%, #3945DC 100%); */
+    background: linear-gradient(90deg, #41DFB2 0%, #21C8CD 100%);
 }
